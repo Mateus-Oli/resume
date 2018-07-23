@@ -1,0 +1,77 @@
+html, body {
+  background: #f5f5f5;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+p {
+  text-indent: 20px;
+  text-align: justify;
+  padding: 10px 30px;
+}
+
+.resume {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.personal {
+  color: white;
+  background: #4885ed;
+  padding-bottom: 10px;
+}
+
+.picture {
+  width: 100%;
+}
+
+.professional {
+  background: white;
+}
+
+.sheet {
+  display: table;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 5px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.sub.title {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.476);
+}
+
+.contacts {
+  margin: 5px;
+  display: flex;
+  flex-flow: column;
+}
+
+.contact {
+  color: inherit;
+  margin: 5px;
+  text-decoration: none;
+  display: table;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
+
+.info {
+  margin: 5px;
+  font-weight: 700;
+}
+
+.data {
+  font-weight: 100;
+  margin: 5px;
+}

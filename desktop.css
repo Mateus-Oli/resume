@@ -1,0 +1,35 @@
+@media(min-width: 740px) {
+  .resume {
+    height: 100%;
+    max-width: 300mm;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .personal {
+    width: 30%;
+  }
+
+  .professional {
+    width: 70%;
+  }
+
+  .sheet {
+    min-height: 100%;
+  }
+}
+
+@media print {
+  .personal {
+    color: black;
+    background: white;
+  }
+
+  .sub.title {
+    color: black;
+  }
+
+  .picture {
+    display: none;
+  }
+}
