@@ -37,8 +37,8 @@ var setLanguage = updateLanguage({
   },
   myself: {
     pt: 'Desenvolvedor Full Stack com 2 anos de experiência. Nestes anos acumulando experiência em diversas plataformas como o NodeJS,'
-      + ' React, Redux, Docker, Kubernetes, Vue, Angular, ReactNative, Java e PHP. Sempre ansioso para aprender e criar permitindo-me'
-      + ' agregar valor em qualquer projeto que eu trabalhe.',
+      + ' React, Redux, Docker, Kubernetes, Vue, Angular, ReactNative, Java e PHP. Assertivo em todos os projetos afetos à minha responsabilidade,'
+      + ' cumprindo invariavelmente os prazos estabelecidos, bem como alinhamento com as metas, diretrizes e estratégia da empresa.',
     en: 'Full Stack developer with 2 years of experience. In these years accumulating experience in several platforms like NodeJS,'
       + ' React, Redux, Docker, Kubernetes, Vue, Angular, ReactNative, Java and PHP. Always eager to learn and create, allowing'
       + ' me to add value in whichever project I work.'
@@ -49,9 +49,9 @@ var setLanguage = updateLanguage({
   },
   angellira: {
     pt: 'Criação do ambiente Web usando as tecnologias Kubernetes e Docker para implantação e integração contínua, NodeJS e React para desenvolvimento e'
-       + 'Elastic Stack para gerenciamento de log.',
+      + ' Elastic Stack para gerenciamento de log.',
     en: 'Creation of Web environment using the technologies Kubernetes and Docker for deployment and continuous integration, NodeJS'
-       + ' and React for development and Elastic Stack for logging management.'
+      + ' and React for development and Elastic Stack for logging management.'
   },
   tegra: {
     pt: 'Desenvolvimento de diversos softwares trabalhando com tecnologias Mobile, Backend e Frontend. Incluído nestas tecnologias'
