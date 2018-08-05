@@ -29,7 +29,7 @@ changeLanguage({
   myself: {
     pt: `
       Desenvolvedor Full Stack com 2 anos de experiência. Nestes anos acumulando experiência em diversas plataformas como o NodeJS,
-      Reagir, Docker, Kubernetes, Vue, Angular, ReactNative, Java e PHP. Sempre ansioso para aprender e criar permitindo-me
+      React, Redux, Docker, Kubernetes, Vue, Angular, ReactNative, Java e PHP. Sempre ansioso para aprender e criar permitindo-me
       agregar valor em qualquer projeto que eu trabalhe.
     `
   },
