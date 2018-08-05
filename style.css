@@ -59,7 +59,7 @@ p {
   color: inherit;
   margin: 5px;
   text-decoration: none;
-  display: table;
+  display: inline-table;
 }
 
 .contact:hover {
