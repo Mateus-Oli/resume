@@ -20,6 +20,9 @@
 }
 
 @media print {
+  p {
+    padding: 0 30px;
+  }
   .personal {
     color: black;
     background: white;
