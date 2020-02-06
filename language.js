@@ -12,3 +12,4 @@ function updateLanguage(dictionary) {
     return changeLanguage(dictionary, language);
   }
 }
+

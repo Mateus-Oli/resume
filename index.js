@@ -55,9 +55,9 @@ var setLanguage = updateLanguage({
   },
   tegra: {
     pt: 'Desenvolvimento de diversos softwares trabalhando com tecnologias Mobile, Backend e Frontend. Incluído nestas tecnologias'
-      + ' estão JavaScript, NodeJS, React, ReactNative, VueJS, Angular, Java e PHP.',
+      + ' estão JavaScript, NodeJS, React, ReactNative, VueJS, Angular, Java, Python e PHP.',
     en: 'Development of serveral softwares working with Mobile, Backend and Frontend technologies. Included in these technologies'
-      + ' are JavaScript, NodeJS, React, ReactNative, VueJS, Angular, Java and PHP.'
+      + ' are JavaScript, NodeJS, React, ReactNative, VueJS, Angular, Java, Python and PHP.'
   },
   bezzeraDeMeneses: {
     pt: 'Estágio desenvolvendo aplicativos móveis usando Ionic / Angular e ExpressJS.',
@@ -66,12 +66,11 @@ var setLanguage = updateLanguage({
 });
 
 function getLanguage() {
-  var GROUP = 1;
-  return (location.href.match(/lang=([^&]*)/) || [])[GROUP] || navigator.language.slice(0,2);
+  return (location.href.match(/lang=([^&]*)/) || [])[1] || navigator.language.slice(0, 2);
 }
 
 setLanguage(getLanguage());
 
-window.onpopstate = function() {
+window.onpopstate = function onpopstate() {
   setLanguage(getLanguage());
 }
