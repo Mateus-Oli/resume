@@ -1,77 +1,64 @@
-html, body {
-  background: #f5f5f5;
-  margin: 0;
+html { 
   width: 100%;
   height: 100%;
-  font-family: Roboto, Arial, sans-serif;
 }
 
-p {
-  text-indent: 20px;
-  text-align: justify;
-  padding: 10px 30px;
-}
-
-.resume {
+body {
+  margin: 0;
   width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
+  min-height: 100%
 }
 
-.personal {
-  color: white;
-  background: #4885ed;
-  padding-bottom: 10px;
-}
+.indent { text-indent: 20px }
+.justify { text-align: justify }
+.center { text-align: center }
 
-.picture {
-  width: 100%;
-}
+.large { font-size: 110% }
+.largest { font-size: 150% }
 
-.professional {
-  background: white;
-}
+.bold { font-weight: 700 }
 
-.sheet {
-  display: table;
-  box-sizing: border-box;
-}
+.roboto { font-family: Roboto, Arial, sans-serif }
 
-.title {
-  margin: 5px;
-  margin-top: 10px;
-  text-align: center;
-  font-weight: 700;
-}
+.flex { display: flex }
+.flex.wrap { flex-wrap: wrap }
 
-.sub.title {
-  margin-top: 10px;
-  color: rgba(255, 255, 255, 0.476);
-}
+.flex.column { flex-direction: column }
+.flex.rowreverse { flex-direction: row-reverse }
 
-.contacts {
-  margin: 5px;
-  display: flex;
-  flex-flow: column;
-}
+.flex.stretch { align-items: stretch }
+.flex.jccenter { justify-content: center }
 
-.contact {
-  color: inherit;
-  margin: 5px;
-  text-decoration: none;
-  display: inline-table;
-}
+.flex.gap { gap: 10px }
 
-.contact:hover {
-  text-decoration: underline;
-}
+.flex .grow { flex-grow: 1 }
 
-.info {
-  margin: 5px;
-  font-weight: 700;
-}
+.pad { padding: 10px }
 
-.data {
-  font-weight: 100;
-  margin: 5px;
+.pady, .padbottom {  padding-bottom: 10px }
+.pady, .padtop {  padding-top: 10px }
+.padx, .padright {  padding-right: 10px }
+.padx, .padleft {  padding-left: 10px }
+
+.white { color: white }
+.inherit { color: inherit }
+
+.bgcwhite { background: white }
+.bgcgray { background-color: #f5f5f5 }
+.bgcblue { background-color: #4885ed }
+
+.w100 { width: 100% }
+.mw200mm { width: 200mm }
+.mw100mm { width: 100mm }
+
+.transparent, .transparent\:visited:visited { opacity: .7 }
+
+.nodecoration { text-decoration: none }
+.underline\:hover:hover { text-decoration: underline }
+
+@media (min-width: 768px) {
+  .flex.dsk-nowrap { flex-wrap: nowrap }
+
+  .dsk-mw90mm { max-width: 90mm }
+  .dsk-mw200mm { max-width: 200mm }
 }

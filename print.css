@@ -1,0 +1,4 @@
+@media print {
+  * { color: black }
+  .noprint { display: none }
+}

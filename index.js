@@ -36,16 +36,20 @@ var setLanguage = updateLanguage({
     en: 'Profile'
   },
   myself: {
-    pt: 'Desenvolvedor Full Stack com 2 anos de experiência. Nestes anos acumulando experiência em diversas plataformas como o NodeJS,'
+    pt: 'Desenvolvedor Full Stack com 3 anos de experiência. Nestes anos acumulando experiência em diversas plataformas como o NodeJS,'
       + ' React, Redux, Docker, Kubernetes, Vue, Angular, ReactNative, Java e PHP. Assertivo em todos os projetos afetos à minha responsabilidade,'
       + ' cumprindo invariavelmente os prazos estabelecidos, bem como alinhamento com as metas, diretrizes e estratégia da empresa.',
-    en: 'Full Stack developer with 2 years of experience. In these years accumulating experience in several platforms like NodeJS,'
+    en: 'Full Stack developer with 3 years of experience. In these years accumulating experience in several platforms like NodeJS,'
       + ' React, Redux, Docker, Kubernetes, Vue, Angular, ReactNative, Java and PHP. Always eager to learn and create, allowing'
       + ' me to add value in whichever project I work.'
   },
   professional: {
     pt: 'Experiencias Profissionais',
     en: 'Professional Experiences'
+  },
+  dextra: {
+    pt: 'Desenvolvimento Frontend.',
+    en: 'Frontend Development.'
   },
   angellira: {
     pt: 'Criação do ambiente Web usando as tecnologias Kubernetes e Docker para implantação e integração contínua, NodeJS e React para desenvolvimento e'
@@ -63,14 +67,14 @@ var setLanguage = updateLanguage({
     pt: 'Estágio desenvolvendo aplicativos móveis usando Ionic / Angular e ExpressJS.',
     en: 'Internship developing mobile application using Ionic/Angular and ExpressJS.'
   }
-});
+})
 
 function getLanguage() {
-  return (location.href.match(/lang=([^&]*)/) || [])[1] || navigator.language.slice(0, 2);
+  return (location.href.match(/lang=([^&]*)/) || [])[1] || navigator.language.slice(0, 2)
 }
 
-setLanguage(getLanguage());
+setLanguage(getLanguage())
 
 window.onpopstate = function onpopstate() {
-  setLanguage(getLanguage());
+  setLanguage(getLanguage())
 }
