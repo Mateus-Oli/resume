@@ -59,9 +59,9 @@ var setLanguage = updateLanguage({
   },
   tegra: {
     pt: 'Desenvolvimento de diversos softwares trabalhando com tecnologias Mobile, Backend e Frontend. Incluído nestas tecnologias'
-      + ' estão JavaScript, NodeJS, React, ReactNative, VueJS, Angular, Java, Python e PHP.',
+      + ' estão JavaScript, NodeJS, React, ReactNative, VueJS, Angular, Java e PHP.',
     en: 'Development of serveral softwares working with Mobile, Backend and Frontend technologies. Included in these technologies'
-      + ' are JavaScript, NodeJS, React, ReactNative, VueJS, Angular, Java, Python and PHP.'
+      + ' are JavaScript, NodeJS, React, ReactNative, VueJS, Angular, Java and PHP.'
   },
   bezzeraDeMeneses: {
     pt: 'Estágio desenvolvendo aplicativos móveis usando Ionic / Angular e ExpressJS.',
