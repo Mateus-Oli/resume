@@ -36,16 +36,20 @@ var setLanguage = updateLanguage({
     en: 'Profile'
   },
   myself: {
-    pt: 'Desenvolvedor Full Stack com 3 anos de experiência. Nestes anos acumulando experiência em diversas plataformas como o NodeJS,'
+    pt: 'Desenvolvedor Full Stack com 5 anos de experiência. Nestes anos acumulando experiência em diversas plataformas como o NodeJS,'
       + ' React, Redux, Docker, Kubernetes, Vue, Angular, ReactNative, Java, Python, C# e PHP. Assertivo em todos os projetos afetos à minha responsabilidade,'
       + ' cumprindo invariavelmente os prazos estabelecidos, bem como alinhamento com as metas, diretrizes e estratégia da empresa.',
-    en: 'Full Stack developer with 3 years of experience. In these years accumulating experience in several platforms like NodeJS,'
+    en: 'Full Stack developer with 5 years of experience. In these years accumulating experience in several platforms like NodeJS,'
       + ' React, Redux, Docker, Kubernetes, Vue, Angular, ReactNative, Java, Python, C# and PHP. Always eager to learn and create, allowing'
       + ' me to add value in whichever project I work.'
   },
   professional: {
     pt: 'Experiencias Profissionais',
     en: 'Professional Experiences'
+  },
+  atlas: {
+    pt: 'Desenvolvendo e expandindo uma arquitetura de microsserviços usando Docker + Kubernetes, focando principalmente em NodeJS e React',
+    en: 'Developing and expanding a microservice architecture using Docker + Kubernetes, mainly focusing in NodeJS and React.'
   },
   dextra: {
     pt: 'Desenvolvimento Frontend.',
