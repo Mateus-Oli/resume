@@ -36,10 +36,10 @@ var setLanguage = updateLanguage({
     en: 'Profile'
   },
   myself: {
-    pt: 'Desenvolvedor Full Stack com 5 anos de experiência. Nestes anos acumulando experiência em diversas plataformas como o NodeJS,'
+    pt: 'Desenvolvedor full stack com 5 anos de experiência. Nestes anos acumulando experiência em diversas plataformas como o NodeJS,'
       + ' React, Redux, Docker, Kubernetes, Vue, Angular, ReactNative, Java, Python, C# e PHP. Assertivo em todos os projetos afetos à minha responsabilidade,'
       + ' cumprindo invariavelmente os prazos estabelecidos, bem como alinhamento com as metas, diretrizes e estratégia da empresa.',
-    en: 'Full Stack developer with 5 years of experience. In these years accumulating experience in several platforms like NodeJS,'
+    en: 'Full stack developer with 5 years of experience. In these years accumulating experience in several platforms like NodeJS,'
       + ' React, Redux, Docker, Kubernetes, Vue, Angular, ReactNative, Java, Python, C# and PHP. Always eager to learn and create, allowing'
       + ' me to add value in whichever project I work.'
   },
@@ -52,19 +52,19 @@ var setLanguage = updateLanguage({
     en: 'Developing and expanding a microservice architecture using Docker + Kubernetes, mainly focusing in NodeJS and React.'
   },
   dextra: {
-    pt: 'Desenvolvimento Frontend.',
-    en: 'Frontend Development.'
+    pt: 'Desenvolvimento frontend e backend usando C# e jquery.',
+    en: 'Frontend and backend development using C# and jquery.'
   },
   angellira: {
-    pt: 'Criação do ambiente Web usando as tecnologias Kubernetes e Docker para implantação e integração contínua, NodeJS e React para desenvolvimento e'
-      + ' Elastic Stack para gerenciamento de log.',
-    en: 'Creation of Web environment using the technologies Kubernetes and Docker for deployment and continuous integration, NodeJS'
-      + ' and React for development and Elastic Stack for logging management.'
+    pt: 'Criação do ambiente Web usando as tecnologias Kubernetes e Docker para implantação e integração contínua, NodeJS, .Net Core(C#)'
+      + 'e React para desenvolvimento e Elastic Stack para gerenciamento de log.',
+    en: 'Creation of web environment using the technologies Kubernetes and Docker for deployment and continuous integration, NodeJS,'
+      + '.Net Core(C#) and React for development and Elastic Stack for logging management.'
   },
   tegra: {
-    pt: 'Desenvolvimento de diversos softwares trabalhando com tecnologias Mobile, Backend e Frontend. Incluído nestas tecnologias'
+    pt: 'Desenvolvimento de diversos softwares trabalhando com tecnologias mobile, backend e frontend. Incluído nestas tecnologias'
       + ' estão JavaScript, NodeJS, React, ReactNative, VueJS, Angular, Java e PHP.',
-    en: 'Development of serveral softwares working with Mobile, Backend and Frontend technologies. Included in these technologies'
+    en: 'Development of serveral softwares working with mobile, backend and frontend technologies. Included in these technologies'
       + ' are JavaScript, NodeJS, React, ReactNative, VueJS, Angular, Java and PHP.'
   },
   bezzeraDeMeneses: {
